@@ -1,0 +1,14 @@
+GET http://localhost:8080/treinen
+
+###
+
+POST http://localhost:8080/treinen
+Content-Type: application/json
+
+{
+  "naam" : "MAT641"
+}
+
+###
+
+GET http://localhost:8080/opstelCombinaties?stationsNaam=amf&spoorNaam=4
